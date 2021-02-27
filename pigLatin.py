@@ -11,7 +11,7 @@ def alterWords():
 # main interaction code 
 while True:
 	startOrEnd = str(input('Start or End : '))
-	if startOrEnd == 'Start':
+	if startOrEnd == 'Start' or 'start':
 		print(' ')
 		print(alterWords())
 		continue
